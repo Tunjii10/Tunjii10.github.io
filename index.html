@@ -1,1 +1,534 @@
-"hello world" 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--================UNICONS ICONS CSS=======================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+        <!--=================== CSS===================-->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!--========Google fonts===================-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">       
+
+        <title>Favour Adetunji</title>
+        <link rel="icon" type="image/x-icon" href="assets\svg_icons\icons8-luke-cage-16.png">
+    </head>
+    <body>
+        <!--========Header===========-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Favour</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-home nav__icon"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user-square nav__icon"></i>About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>Portfolio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contactme" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>Contact Me
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--==================Main================-->
+        <main class="main">
+            <!--=============HOME======================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://twitter.com/tun_jiii" target="_blank" class="home__social-icon">
+                                <i class="uil uil-twitter"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/favour-adetunji/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/Tunjii10" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github"></i>
+                            </a>
+                        </div>
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path  d="M54.1,-63.6C65.5,-54.8,67.1,-33.5,70.1,-12.9C73.1,
+                                    7.7,77.6,27.5,71,43C64.5,58.5,47,69.7,28.9,73.7C10.9,77.8,-7.6,74.8,-24,
+                                    68C-40.4,61.1,-54.7,50.5,-63.9,36.2C-73,21.8,-76.9,3.8,-71.6,-10.2C-66.2,
+                                    -24.2,-51.6,-34.1,-38.1,-42.4C-24.6,-50.8,-12.3,-57.6,4.5,-63C21.3,-68.4,
+                                    42.6,-72.3,54.1,-63.6Z" transform="translate(100 100)" />
+                                </mask>
+                                <image style="mask: url(#mask0);" x="-15" y="15" class="home__blob-img" xlink:href="assets\img\pic3.png"/>
+                            </svg>
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">
+                                Hi, I am Favour
+                            </h1>
+                            <h3 class="home__subtitle">
+                                Full Stack Developer
+                            </h3>
+                            <p class="home__description">
+                                I'm passionate about building data driven applications/softwares.
+                            </p>
+                            <a href="#contactme" class="button button--flex">
+                                Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt-2 home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!--=======================ABOUT=========================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">
+                    About Me
+                </h2>
+                <span class="section__subtitle">Who I am</span>
+                <div class="about__container container grid">
+                    <img src="assets\svg_icons\working-with-laptop.svg" alt="about-svg" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description ">
+                            I'm Favour Adetunji, a full stack developer with knowledge and 
+                            experience in web development, data science and 
+                            machine learning. I reside in PortHarcourt, Nigeria. 
+                            I love playing football and watching movies.
+                        </p>
+                        <div class="about__buttons">
+                            <a download="" href="assets\resume\favoursoftware.pdf" class="button button--flex">
+                                Download CV<i class="uil uil-file-download button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--====================SKILLS==============-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical skills</span>
+                <div class="skills__container container grid">
+                    
+                        <!--====================SKILLS 1==============-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+                                 <div>
+                                     <h1 class="skills__title">Frontend Development</h1>
+                                     <span class="skills__subtitle">Languages</span>
+                                 </div>
+
+                                 <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid" >
+                                <div class="skills__data">
+                                    <div class="skills__data-icon">
+                                        <i class="uil uil-html5 skills__icon_tech"></i>
+                                    </div>
+                                    <div class="skills__name">HTML</div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__data-icon">
+                                        <i class="uil uil-css3-simple skills__icon_tech"></i>
+                                    </div>
+                                    <div class="skills__name">CSS</div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__data-icon">
+                                        <i class="uil uil-java-script skills__icon_tech"></i>
+                                    </div>
+                                    <div class="skills__name">Javascript</div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__data-icon">
+                                        <i class="uil uil-react skills__icon_tech"></i>
+                                    </div>
+                                    <div class="skills__name">React</div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!--====================SKILLS 2==============-->
+                         <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-server-network skills__icon"></i>
+                                 <div>
+                                     <h1 class="skills__title">Backend Development</h1>
+                                     <span class="skills__subtitle">Languages</span>
+                                 </div>
+
+                                 <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__data-icon">
+                                        <img src="assets\svg_icons\node-js.svg" class = "skills__icon_tech" alt="node_Img">
+                                    </div>
+                                    <div class="skills__name">Node Js</div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__data-icon">
+                                        <img src="assets\svg_icons\php.svg" alt="php_img" class = "skills__icon_tech">
+                                    </div>
+                                    <div class="skills__name">Php</div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__data-icon">
+                                        <img src="assets\svg_icons\python.svg" alt="python_img" class = "skills__icon_tech">
+                                    </div>
+                                    <div class="skills__name">Python</div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__data-icon">
+                                        <img src="assets\svg_icons\database.svg" alt="sql_img" class = "skills__icon_tech">
+                                    </div>
+                                    <div class="skills__name">Sql</div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!--====================SKILLS 3==============-->
+                         <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-robot skills__icon"></i>                                 
+                                <div>
+                                     <h1 class="skills__title">Machine Learning</h1>
+                                     <span class="skills__subtitle">Frameworks</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__data-icon">
+                                        <img src="assets\svg_icons\Tensorflow_logo.svg" alt="tf_img" class = "skills__icon_tech">
+                                    </div>
+                                    <div class="skills__name">Tensorflow</div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__data-icon">
+                                        <img src="assets\svg_icons\pytorch-icon.svg" alt="pytorch_img" class = "skills__icon_tech"> 
+                                    </div>
+                                    <div class="skills__name">PyTorch</div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </section>
+            <!--====================Qualifications==================-->
+            <section class="qualification section">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">My Journey</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target='#work'>
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Experience
+                        </div>
+                        <div class="qualification__button button--flex" data-target='#certification'>
+                            <i class="uil uil-award qualification__icon"></i> 
+                            Certifications
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <!--===================Qualification Content 1================-->
+                        <div class="qualification__content qualification__active" data-content id="work">
+                            <!--===================Qualification 1================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Data Engineering Intern</h3>
+                                    <span class="qualification__subtitle">Hamoye AI Labs</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        Aug 2021 - Nov 2021    
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+                             <!--===================Qualification 2================-->
+                             <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!--<span class="qualification__line"></span>-->
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Software Engineer</h3>
+                                    <span class="qualification__subtitle">Niger Delta University</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        Dec 2019 - Oct 2020    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                         <!--===================Qualification Content 2================-->
+                         <div class="qualification__content" data-content id="certification">
+                            <!--===================Qualification 1================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Artificial Intelligence<sup>TM</sup> : Learn How to Build An AI </h3>
+                                    <span class="qualification__subtitle">Udemy</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        Apr 2021   
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>                            
+                             <!--===================Qualification 2================-->
+                             <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Deployment of Machine Learning Models</h3>
+                                    <span class="qualification__subtitle">Udemy</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        Dec 2020  
+                                    </div>  
+                                </div>
+                            </div>
+                             <!--===================Qualification 3================-->
+                             <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Deep Learning A-Z<sup>TM</sup> : Hands-On Python Artificial Neural Networks</h3>
+                                    <span class="qualification__subtitle">Udemy</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        Jun 2020    
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+                             <!--===================Qualification 4================-->
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!--<span class="qualification__line"></span>-->
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Machine Learning A-Z<sup>TM</sup> : Hands-On Python and R In Data Science </h3>
+                                    <span class="qualification__subtitle">Udemy</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        Jun 2020  
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--=====================Portfolio==================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Here are a few projects I have worked on</span>
+                
+                <div class="portfolio__container container">
+                    
+                        <!--========================Portfolio 1======================-->
+                        <div class="portfolio__content grid">
+                            <img src="assets\img\bitcoin.jpg" alt="" class="portfolio__img">
+                            <div class="portfolio__data overlay">
+                                <h3 class="portfolio__title">RL_Bitcoin Bot</h3>
+                                <p class="portfolio__description"> 
+                                    A bitcoin trading bot model, built using the Open Gym AI custom 
+                                    environment and stable baselines 3 module.
+                                </p>
+                                <a href="https://github.com/Tunjii10/RL_Bitcoin_Bot" target="_blank" class="button button--flex button--small portfolio__button">
+                                    View
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--========================Portfolio 2======================-->
+                        <div class="portfolio__content grid">
+                            <img src="assets\img\deaf.jpg" alt="" class="portfolio__img">
+                            <div class="portfolio__data overlay">
+                                <h3 class="portfolio__title">Sign Language Recognition</h3>
+                                <p class="portfolio__description">
+                                    A sign language model built using the tensorflow object
+                                    detection API. This project focuses on the
+                                    Nigerian Sign Language. 
+                                </p>
+                                <a href="https://github.com/Tunjii10/Sign-Language-Recognition" target="_blank" class="button button--flex button--small portfolio__button">
+                                    View
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--========================Portfolio 3======================-->
+                        <div class="portfolio__content grid">
+                            <img src="assets\img\titanic.jpg" alt="" class="portfolio__img">
+                            <div class="portfolio__data overlay">
+                                <h3 class="portfolio__title">Deployment of Titanic Ml Model</h3>
+                                <p class="portfolio__description">
+                                    An End to End ML project for predicting titanic survivors. 
+                                    This project was built with flask and sci-kit learn.
+                                </p>
+                                <a href="https://github.com/Tunjii10/Deployment-of-titanic-ml-model" target="_blank" class="button button--flex button--small portfolio__button">
+                                    View
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--========================Portfolio 4======================-->
+                        <div class="portfolio__content grid">
+                            <img src="assets\img\blog.jpg" alt="" class="portfolio__img">
+                            <div class="portfolio__data overlay">
+                                <h3 class="portfolio__title">Blog</h3>
+                                <p class="portfolio__description">
+                                    A blogsite built using MERN stack. Users can upload, edit, delete 
+                                    and search for content.
+                                </p>
+                                <a href="https://github.com/Tunjii10/Blog" target="_blank" class="button button--flex button--small portfolio__button">
+                                    View
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>   
+                </div>
+            </section> 
+
+            <!--===================Contact Me===================-->
+            <section class="contact section" id="contactme">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Want to get in touch?</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Call Me</h3>
+                                <span class="contact__subtitle">+234 7011663964</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">oluwatunji7@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">PortHarcourt, Nigeria</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===============Footer=======================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Favour</h1>
+                        <span class="footer__subtitle">FullStack Developer</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contactme" class="footer__link">Contact Me</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://twitter.com/tun_jiii" target="_blank" class="footer__social">
+                            <i class="uil uil-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/favour-adetunji/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Tunjii10" target="_blank" class="footer__social">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy"> &#169; Favour Adetunji. All rights reserved</p>
+            </div>
+        </footer>
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== Main Js==================-->
+        <script src="assets/javascript/main.js"></script>
+    </body>
+</html>
