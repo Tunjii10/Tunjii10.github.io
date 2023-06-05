@@ -26,23 +26,23 @@ function linkAction() {
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 //show skills toggle
-const skillsContent = document.getElementsByClassName('skills__content'),
-        skillsHeader  = document.querySelectorAll('.skills__header')
+// const skillsContent = document.getElementsByClassName('skills__content'),
+//         skillsHeader  = document.querySelectorAll('.skills__header')
 
-function toggleSkills() {
-    let itemClass = this.parentNode.className
+// function toggleSkills() {
+//     let itemClass = this.parentNode.className
 
-    for(i = 0; i < skillsContent.length; i++){
-        skillsContent[i].className = 'skills__content skills__close'
-    }
-    if (itemClass === 'skills__content skills__close') {
-        this.parentNode.className = 'skills__content skills__open'
-    }
-}
+//     for(i = 0; i < skillsContent.length; i++){
+//         skillsContent[i].className = 'skills__content skills__close'
+//     }
+//     if (itemClass === 'skills__content skills__close') {
+//         this.parentNode.className = 'skills__content skills__open'
+//     }
+// }
 
-skillsHeader.forEach((ele) => {
-    ele.addEventListener('click', toggleSkills);
-})
+// skillsHeader.forEach((ele) => {
+//     ele.addEventListener('click', toggleSkills);
+// })
 
 //Qualification Tabs
 const tabs = document.querySelectorAll('[data-target]'),
